@@ -108,8 +108,18 @@ programa {
 
         escreva(saldo + deposito,"\n\n")
         escreva("----------------\n\n")
-       
 
+        para(inteiro i = 0; i < 1000; i++){
+			se(credito[i] > 0){
+				escreva("\nCrédito:    R$ ",credito[i])
+				}
+			}
+		para(inteiro x = 0; x < 1000; x++){
+			se(debito[i] > 0){
+				escreva("\nDébito:     R$ ",debito[i])
+				}
+			}
+       
         escreva("Deseja voltar ao menu principal s|n? ")
         leia(voltar)
       
