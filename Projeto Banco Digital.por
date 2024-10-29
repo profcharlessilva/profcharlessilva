@@ -4,24 +4,23 @@ programa {
       inteiro bag = 1, bcc=1, bsn=123, i
       caracter voltar
       real saldo = 10000, limite = 500, total = limite + saldo, deposito, saque
-  
+      real credito[1000], debito[1000]
+
   funcao vetor(){
 
       para(i=1; i<1000; i++){
 
+        credito[i] = 0.0
 
       }
 
       para (i=1; i<1000; i++){
 
-
+          debito[i] = 0.0
       }
 
 
   }
-  
-  
-  
   
   funcao inicio(){
 
