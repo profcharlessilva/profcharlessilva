@@ -128,8 +128,8 @@ programa {
         escreva("------------------\n\n")
 
         para(inteiro i = 0; i < 1000; i++){
-			se(credito[i] == 0){ 
-        
+			
+      se(credito[i] == 0){ 
         credito[i] = deposito
 				pare
 				}
@@ -159,6 +159,15 @@ funcao saque(){
         }
 
         saque - saldo
+
+        para(inteiro i = 0; i < 1000; i++){
+			
+            se(debito[i] == 0){ 
+              debito[i] = saque
+				      pare
+				}
+        
+        }
 
         escreva("Deseja voltar ao menu principal s|n? ")
         leia(voltar)
