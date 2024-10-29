@@ -127,6 +127,13 @@ programa {
         leia(deposito)
         escreva("------------------\n\n")
 
+        para(inteiro i = 0; i < 1000; i++){
+			se(credito[i] == 0){ 
+        
+        credito[i] = deposito
+				pare
+				}
+        }
         escreva("Deseja voltar ao menu principal s|n? ")
         leia(voltar)
       
@@ -148,7 +155,6 @@ funcao saque(){
         se(saldo < saque){
 
           escreva("Valor indisponivel")
-
 
         }
 
