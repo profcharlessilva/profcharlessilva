@@ -114,7 +114,7 @@ programa {
 				escreva("\nCrédito:    R$ ",credito[i])
 				}
 			}
-		para(inteiro x = 0; x < 1000; x++){
+		para(inteiro i = 0; i < 1000; i++){
 			se(debito[i] > 0){
 				escreva("\nDébito:     R$ ",debito[i])
 				}
